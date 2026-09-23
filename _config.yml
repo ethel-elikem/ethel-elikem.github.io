@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Ethel Elikem Mensah"
 description              : &description "Doctoral researcher in computational social science, urban data, and digital platforms."
 url                      : "https://ethel-elikem.github.io"
-baseurl                  : "/eeamensah.github.io"
+baseurl                  : ""
 repository               : "ethel-elikem/eeamensah.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -28,7 +28,7 @@ author:
   bio              : "Doctoral researcher studying how platform data can reveal spatial inequality, migration, and social dynamics in cities."
   location         : "Saarbrücken, Germany"
   employer         : "Saarland University"
-  uri              : # URL
+  uri              : "https://ethel-elikem.github.io"
   email            : "mensah@cs.uni-saarland.de"
 
   # Academic websites
