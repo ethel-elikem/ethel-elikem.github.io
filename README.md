@@ -1,16 +1,11 @@
-# Ethel Elikem Mensah — Academic website
+# Ethel Elikem Mensah — academic website
 
-Static HTML/CSS website for GitHub Pages.
+Static website for GitHub Pages. Upload these files to the **root** of `ethel-elikem/ethel-elikem.github.io` on branch `main`.
 
-## Publish
-1. Extract this ZIP on your computer.
-2. Open the **new** `ethel-elikem/ethel-elikem.github.io` repository.
-3. Choose **Add file → Upload files**. Drag **all extracted files** into the upload area (not the enclosing folder), including `index.html`, `site.css`, `elsewhere.html`, `publications.html`, `writing.html`, `cv.html`, and `.nojekyll`. Commit to `main`.
-4. In **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/(root)`, and save.
-5. Visit https://ethel-elikem.github.io/ after GitHub completes its deployment.
+`index.html` is the homepage; `site.css` controls typography and colours; `profile.jpg` is the homepage headshot. The other pages are Publications, Writing, About & CV, and Elsewhere.
 
-## Notes
-- `elsewhere.html` is reachable from a discreet footer link and has a `noindex` tag. It is **not** password protected and may still be discovered.
-- Publications link to Google Scholar until the full curated bibliography is imported.
-- CV currently contains a biographical summary rather than an attached PDF.
-- Personal content sections are intentionally placeholders.
+Pages → Build and deployment → Deploy from branch → `main` / `(root)`.
+
+The publication panel links to the published paper and its Figure 1. If you want a literal figure embedded on the page, replace the panel with the approved image file extracted from your own paper.
+
+The Elsewhere page is linked in the footer and has `noindex` metadata, but is not private.
