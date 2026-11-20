@@ -1,11 +1,13 @@
 # Ethel Elikem Mensah — academic website
 
-Static website for GitHub Pages. Upload these files to the **root** of `ethel-elikem/ethel-elikem.github.io` on branch `main`.
+A one-page academic website with sections in this order: About, Research, Publications, Writing and Affiliations. The `Elsewhere` page remains separate and linked only in the footer.
 
-`index.html` is the homepage; `site.css` controls typography and colours; `profile.jpg` is the homepage headshot. The other pages are Publications, Writing, About & CV, and Elsewhere.
+## Publish on GitHub Pages
+Upload all files from this folder into the **root** of the `main` branch of `ethel-elikem/ethel-elikem.github.io`. Replace the old files with matching names. Under Settings → Pages, choose Deploy from branch: `main`, `/(root)`.
 
-Pages → Build and deployment → Deploy from branch → `main` / `(root)`.
-
-The publication panel links to the published paper and its Figure 1. If you want a literal figure embedded on the page, replace the panel with the approved image file extracted from your own paper.
-
-The Elsewhere page is linked in the footer and has `noindex` metadata, but is not private.
+## To finish later
+- Add your official email to the About section after confirming it. The previous email is intentionally not included.
+- Add a CV PDF only after you share and approve it.
+- A paper figure is not included. Add the original published figure later with permission and a correct caption; the publication already has a single DOI link.
+- Change `profile.jpg` only if you prefer a different photo. The CSS uses natural image proportions and does not crop it.
+- The old page URLs redirect to the corresponding section on the one-page site.
